@@ -13,3 +13,13 @@ create table series (
   author_id integer,
   subgenre_id integer
 );
+
+create table subgenres (
+  id integer primary key,
+  name text
+);
+
+create table authors (
+  id integer primary key,
+  name text
+);

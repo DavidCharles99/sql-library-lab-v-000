@@ -23,3 +23,8 @@ create table authors (
   id integer primary key,
   name text
 );
+
+create table books (
+  id integer primary key,
+  title text,
+) 

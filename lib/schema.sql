@@ -27,4 +27,4 @@ create table authors (
 create table books (
   id integer primary key,
   title text,
-) 
+)

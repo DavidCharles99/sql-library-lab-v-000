@@ -31,7 +31,6 @@ create table books (
   series_id integer
 );
 
-
 create table character_books (
   id integer primary key,
   book_id integer,
